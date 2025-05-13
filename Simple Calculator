@@ -1,0 +1,26 @@
+
+let firstNumber = prompt("Enter number one: ");
+let secondNumber = prompt("Enter number two: ");
+let operators = prompt("Enter the operators(+,-,*,/): ");
+
+firstNumber = Number(firstNumber);
+secondNumber = Number(secondNumber);
+
+let result;
+
+if(operators === "+"){
+    result = firstNumber + secondNumber;
+}
+else if(operators === "-"){
+    result = firstNumber - secondNumber;
+}
+else if(operators === "*"){
+    result = firstNumber * secondNumber;
+}
+else if(operators === "/"){
+    result = firstNumber / secondNumber;
+}
+else{
+    result = "Invalid";
+}
+console.log("Result:", result);
