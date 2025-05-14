@@ -1,0 +1,13 @@
+let number_One = prompt("Enter a Number  One : ");
+let number_Two = prompt("Enter a Number Two : ");
+number_One = Number(number_One);
+number_Two = Number(number_Two);
+if(number_One > number_Two){
+    console.log("Number one is Large!");
+}
+else if(number_One < number_Two){
+    console.log("Number two is Large!");
+}
+else{
+    console.log("Both numbers are equal");
+}
