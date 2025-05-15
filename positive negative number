@@ -1,0 +1,16 @@
+
+function numberCompare(){
+    let first_number = prompt("Enter first number : ");
+    first_number = Number(first_number);
+    if(first_number > 0){
+        return "Positive ";
+    }
+    else if(first_number < 0){
+        return "Negative";
+    }
+    else{
+        return "Zero";
+    }
+}
+let result = numberCompare();
+console.log("result : ",result);
