@@ -1,0 +1,12 @@
+function findSmallest(numbers){
+    let smallest = numbers[0];
+    for (let i=0;i<numbers.length;i++){
+        if(numbers[i]<smallest){
+            smallest = numbers[i];
+        }
+    }
+    return smallest;
+}
+let numbers = [9,34,-4,5,-1,0,3,5];
+let result = findSmallest(numbers);
+console.log(result);
