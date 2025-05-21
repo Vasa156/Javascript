@@ -1,0 +1,6 @@
+let items = ["Ball", "Apple", "Bat", "Bottle", "Cat"];
+for(let i=0;i<items.length;i++){
+    if(items[i].startsWith("B")){
+        console.log(items[i]);
+    }
+}
