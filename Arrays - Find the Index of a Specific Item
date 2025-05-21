@@ -1,0 +1,6 @@
+let cars = ["Toyota", "Honda", "BMW", "Tesla", "Ford"];
+for(let i=0;i<cars.length;i++){
+    if(cars[i]==="Tesla" ){
+        console.log("Tesla found at index : "+i);
+    }
+}
