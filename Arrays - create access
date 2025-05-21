@@ -1,0 +1,10 @@
+let myColors = ["Red", "Blue", "Green"];
+console.log(myColors[1]);
+myColors[3] = "Blue";
+myColors[4] = "Yellow";
+myColors.push("Purple");
+myColors.unshift("Orange");
+myColors.pop();
+myColors.shift();
+console.log(myColors.length);
+console.log(myColors);
