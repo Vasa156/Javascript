@@ -1,0 +1,6 @@
+const calculateAverage = function (num1, num2){
+    return (num1+num2)/2;
+};
+console.log(calculateAverage(50,70));
+
+//ouptut is : 60
