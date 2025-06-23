@@ -1,0 +1,23 @@
+//creating object
+const personDetail ={
+    firstName : "Vasanthi",
+    lastName : "Selvam",
+    fieldStudy : "Engineering",
+    // method inside object
+    getFullName : function(){
+        return this.firstName + " " +this.lastName;
+    },
+    //es6 method syntax
+    introduce(){
+        return 'Hi, I am $(this.getFullName())';
+    }
+};
+//accessing properties
+console.log(personDetail.firstName);
+console.log(personDetail.lastName);
+console.log(personDetail.getFullName());
+
+//the ouptut is 
+//Vasanthi
+//Selvam
+//Vasanthi Selvam
